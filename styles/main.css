@@ -1,0 +1,59 @@
+/*
+Website Colors
+Blue: #142860
+Red: #b52019
+White: #eaeaea
+
+Text Colors
+White: #ffffff
+Black: #000000
+Gray: #737373
+*/
+
+body{
+    background-color: #b52018;
+}
+
+
+
+
+
+/*Nav Bar*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #eaeaea;
+}
+
+.headerContent{
+    width: 1596px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 500px;
+    height: 150px;
+    background-image: url("/assets/Logo.png");
+    float: left;
+}
+
+.headerText{
+    width: 1096px;
+    height: 40px;
+    float: right;
+    margin-top: 55px;
+}
+
+.headerText h3{
+    color: #142860;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+
+/*Hero Section*/
