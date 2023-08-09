@@ -8,52 +8,90 @@ Text Colors
 White: #ffffff
 Black: #000000
 Gray: #737373
+
+Font:
+Titles and Headings: Kanit
+Body text: Montserrat
 */
 
-body{
-    background-color: #b52018;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Montserrat&display=swap');
 
 
 
 
 
-/*Nav Bar*/
-header{
-    width: 100%;
-    height: 150px;
-    background-color: #eaeaea;
-}
 
-.headerContent{
-    width: 1596px;
-    height: 150px;
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* GLOBAL STYLES */
+/* ---------------------------------------------------------------------------------------------------- */
+
+body {
+    width: 1920px;
+    background-color: #142860;
     margin: 0 auto;
 }
 
-.logo{
-    width: 500px;
-    height: 150px;
-    background-image: url("/assets/Logo.png");
-    float: left;
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: 'Kanit', sans-serif;
 }
 
-.headerText{
-    width: 1096px;
-    height: 40px;
-    float: right;
-    margin-top: 55px;
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.headerText h3{
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* NAV */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #eaeaea;
+    padding-left: 162px;
+    padding-right: 162px;
+}
+
+.logo {
+    height: 100px; 
+}
+
+.navbar-nav {
+    
+}
+
+.nav-link {
     color: #142860;
-    float: left;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 242px;
 }
 
 
 
 
 
-/*Hero Section*/
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CAROUSEL */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.header-image {
+    width: 1596px;
+    height: 700px;
+    
+}
