@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trips</title>
+
+        <!-- Style Sheets -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href="/styles/main.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <!-- NAV -->
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <!-- LOGO -->
+            <a class="navbar-logo" href="/index.html">
+            <img src="/assets/Logo.png" class="logo">
+            </a>
+            
+            <!-- NAV ITEMS -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="/index.html"><h2>HOME</h2></a>
+                <a class="nav-link" href="/trips.html"><h2><strong>TRIPS</strong></h2></a>
+                <a class="nav-link" href="/purchaseaticket.html"><h2>PURCHASE A TICKET</h2></a>
+            </div>
+            </div>
+
+        </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <!-- CARDS -->
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+
+        <div class="card-container">
+
+            <!-- Header -->
+            <h2><strong>TRIPS</strong></h2>
+
+            <!-- List of Trip Cards -->
+            <div class="row" id="tripsContainer">
+
+                <!-- Browse Card Template *Won't display by default -->
+                <template id="tripCardTemplate">
+                    <div class="col-4">
+        
+                        <!-- Card -->
+                        <div class="card">
+                            <img src="/assets/trondheim.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h4 class="card-title" id="nameText">TRONDHEIM</h4>
+                            <h4 class="card-text" id="priceText">R5000</h4>
+                            <p class="more-info" id="moreInfo">(CLICK FOR MORE INFO)</p>
+                            <p class="card-text" id="descriptionText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="/scripts/main.js"></script>
+
+    </body>
+  </html>
