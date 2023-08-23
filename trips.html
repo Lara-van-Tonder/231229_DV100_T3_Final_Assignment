@@ -40,6 +40,30 @@
 
 
 
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <!-- Filter Radio Options -->
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+
+        <div class="row">
+            
+            <!-- Filter Radio Buttons -->
+            <div class="btn-group col-auto" role="group"> <!-- Note: col-auto resizes the items in comparison to the content inside it. -->
+                <input type="radio" class="btn-check" name="filterRadio" id="allTripsFilter" value="" autocomplete="off" checked> <!-- "id" also needs to be used in "for" in "label"-->
+                <label class="btn btn-outline-primary" for="allTripsFilter">All Trips</label> <!-- btn-outline-SUCCESS changes from blue to green. -->
+              
+                <input type="radio" class="btn-check" name="filterRadio" id="shortDurationFilter" value="short" autocomplete="off">
+                <label class="btn btn-outline-primary" for="shortDurationFilter"><i class="bi bi-brightness-high"></i> Short Trips</label> <!-- Paste Bootstrap (<i class="bi-alarm"></i>) icons in label tag before word/content (where you're going to want to have the icon show up). -->
+              
+                <input type="radio" class="btn-check" name="filterRadio" id="longDurationFilter" value="long" autocomplete="off">
+                <label class="btn btn-outline-primary" for="longDurationFilter"><i class="bi bi-brightness-low"></i> Long Trips</label>
+            </div>
+
+        </div>
+
+
+
+
+
 
 
 
