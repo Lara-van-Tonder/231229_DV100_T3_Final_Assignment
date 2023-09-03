@@ -1,3 +1,6 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* GENERAL INFO */
+/* ---------------------------------------------------------------------------------------------------- */
 /*
 Website Colors
 Blue: #142860
@@ -15,11 +18,7 @@ Body text: Montserrat
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Montserrat&display=swap');
-
-
-
-
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 
 
@@ -47,11 +46,9 @@ p {
 
 
 
-
-
-
-
-
+/* ---------------------------------------------------------------------------------------------------- */
+/* HOME PAGE */
+/* ---------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */
 /* NAV */
 /* ---------------------------------------------------------------------------------------------------- */
@@ -65,82 +62,84 @@ p {
 }
 
 .logo {
-    height: 100px; 
+    width: 335px;
+    height: 100px;
 }
 
-.navbar-nav {
-    
+.logo:hover {
+    width: 335px;
+    height: 100px;
+    background-color: #b52019;
 }
 
 .nav-link {
     color: #142860;
-    margin-left: 242px;
+    margin-left: 240px;
+}
+
+.nav-link:hover {
+    color: #b52019;
 }
 
 
 
 
 
-
-
-
-
-
-/* ---------------------------------------------------------------------------------------------------- */
-/* HOME */
-/* ---------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */
 /* CAROUSEL */
 /* ---------------------------------------------------------------------------------------------------- */
 
+.carousel {
+    margin-bottom: 50px;
+}
+
 .carousel-inner {
-    padding-left: 162px;
-    padding-right: 162px;
+    margin: 0 auto;
 }
 
 .header-image1 {
-    width: 1596px;
-    height: 800px;
+    width: 1920px;
+    height: 860px;
     background-image: url('/assets/header1.jpg');
     background-size: cover;
     background-position: bottom;
 }
 
 .header-image2 {
-    width: 1596px;
-    height: 800px;
+    width: 1920px;
+    height: 860px;
     background-image: url('/assets/header2.jpg');
     background-size: cover;
     background-position: bottom;
 }
 
 .header-image3 {
-    width: 1596px;
-    height: 800px;
+    width: 1920px;
+    height: 860px;
     background-image: url('/assets/header3.jpg');
     background-size: cover;
     background-position: bottom;
 }
 
 .header-image4 {
-    width: 1596px;
-    height: 800px;
+    width: 1920px;
+    height: 860px;
     background-image: url('/assets/header4.jpg');
     background-size: cover;
     background-position: bottom;
 }
 
 .header-image5 {
-    width: 1596px;
-    height: 800px;
+    width: 1920px;
+    height: 860px;
     background-image: url('/assets/header5.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .header-image6 {
-    width: 1596px;
-    height: 800px;
+    width: 1920px;
+    height: 860px;
     background-image: url('/assets/header6.jpg');
     background-size: cover;
     background-position: bottom;
@@ -154,6 +153,149 @@ p {
 
 
 
+/* ---------------------------------------------------------------------------------------------------- */
+/* DOCUMENT READY */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.doc-ready {
+    width: 1300px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* WEATHER API */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.temp {
+    color: #b52019;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ACCORDION */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.accordion {
+    width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.accordion-button {
+    color: #ffffff;
+    background-color: #b52019;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------------------------------------------------------------------- */
+
+footer {
+    width: 1920px;
+    height: 200px;
+    background-color: #eaeaea;
+    padding-top: 40px;
+    text-align: center;
+    color: #142860;
+}
+
+.social-media-icons {
+    width: 375px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.facebook {
+    width: 75px;
+    height: 75px;
+    background-image: url("/assets/facebook.png");
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.instagram {
+    width: 75px;
+    height: 75px;
+    background-image: url("/assets/instagram.png");
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.twitter {
+    width: 75px;
+    height: 75px;
+    background-image: url("/assets/twitter.png");
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* TRIPS PAGE */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* TITLE INTRO SECTION */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.title-intro {
+    width: 1300px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* FILTER OPTIONS */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.btn-group {
+    width: 1920px;
+    margin-bottom: 50px;
+    padding-left: 162px;
+    padding-right: 162px;
+}
+
+.btn-group label {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #b52019;
+    border: solid 2px #ffffff;
+}
 
 
 
@@ -170,22 +312,14 @@ p {
     padding-right: 162px;
 }
 
-.card-container h2 {
-    color: #ffffff;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .row {
     width: 1596px;
     height: auto;
 }
 
-/* Card */
-
 .card {
     width: 350px;
-    height: 600px;
+    height: 650px;
     background-color: #eaeaea;
     color: #000000;
     text-align: justify;
@@ -215,31 +349,21 @@ p {
     font-weight: bold;
 }
 
-
-
-
-
-/* ---------------------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------- */
-/* 
-
-PERSONAL NOTES:
-
-1. Something is going on with card margins and padding. Need to figure out what is causing it to stretch past specified width.
-2. Also need to add BOOK NOW button to cards.
-
-*/
-/* ---------------------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------- */
-
-
-
-
-
-/* Weather API Styling */
-
-.api-text {
-    color: #eaeaea;
-    text-align: center;
-    margin-top: 15px;
+.card-body a {
+    font-weight: bold;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    background-color: #b52019;
 }
+
+.card-body a:hover {
+    font-weight: bold;
+    color: #b52019;
+    border: solid 2px #b52019;
+    background-color: #eaeaea;
+}
+
+
+
+
+
