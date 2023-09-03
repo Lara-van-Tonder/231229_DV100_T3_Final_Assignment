@@ -248,3 +248,90 @@ $(this).find(".card-img-top").toggleClass("small");
 
 
 
+
+// ----------------------------------------------------------------------------------------------------
+// BOOK NOW BUTTON
+// ----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+// ----------------------------------------------------------------------------------------------------
+// PURCHASE A TICKET PAGE
+// ----------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------
+// REMOVE AN ITEM
+// ----------------------------------------------------------------------------------------------------
+
+$("#removeButton1").click(function(){
+$(".tripRow1").remove();
+});
+
+
+$("#removeButton2").click(function(){
+$(".tripRow2").remove();
+});
+
+$("#removeButton3").click(function(){
+$(".tripRow3").remove();
+});
+
+$("#removeButton4").click(function(){
+$(".tripRow4").remove();
+});
+
+$("#removeButton5").click(function(){
+$(".tripRow5").remove();
+});
+
+$("#removeButton6").click(function(){
+$(".tripRow6").remove();
+});
+
+
+
+
+
+// ----------------------------------------------------------------------------------------------------
+// REMOVE ALL BUTTON
+// ----------------------------------------------------------------------------------------------------
+
+$("#removeAllBtn").click(function(){
+$(".table").remove();
+});
+
+
+
+
+
+// ----------------------------------------------------------------------------------------------------
+// SUCCESSFUL PURCHASE
+// ----------------------------------------------------------------------------------------------------
+
+$("#purchaseButton1").click(function(){
+$(".purchase-btn1").text("Successful Purchase")
+})
+
+$("#purchaseButton2").click(function(){
+$(".purchase-btn2").text("Successful Purchase")
+})
+
+$("#purchaseButton3").click(function(){
+$(".purchase-btn3").text("Successful Purchase")
+})
+
+$("#purchaseButton4").click(function(){
+$(".purchase-btn4").text("Successful Purchase")
+})
+
+$("#purchaseButton5").click(function(){
+$(".purchase-btn5").text("Successful Purchase")
+})
+
+$("#purchaseButton6").click(function(){
+$(".purchase-btn6").text("Successful Purchase")
+})
+

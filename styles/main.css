@@ -352,7 +352,7 @@ footer {
 .card-body a {
     font-weight: bold;
     color: #ffffff;
-    border: solid 2px #ffffff;
+    border: solid 2px #b52019;
     background-color: #b52019;
 }
 
@@ -366,4 +366,93 @@ footer {
 
 
 
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* PURCHASE A TICKET PAGE */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* PURCHASE A TICKET */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.pat-text{
+    width: 1300px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* TABLE */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.table-container {
+    width: 1920px;
+    height: auto;
+    margin-bottom: 50px;
+    padding-left: 162px;
+    padding-right: 162px;
+}
+
+.table {
+    height: 500px;
+    text-align: center;
+}
+
+.table button {
+    width: 200px;
+    background-color: #b52019;
+    color: #ffffff;
+    border: solid 2px #b52019;
+    border-radius: 5px;
+}
+
+.table button:hover {
+    width: 200px;
+    background-color: #ffffff;
+    color: #b52019;
+    border: solid 2px #b52019;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* REMOVE ALL BUTTON */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.remove-all-btn {
+    width: 400px;
+    height: auto;
+    background-color: #b52019;
+    text-align: center;
+    color: #ffffff;
+    border: solid 3px #b52019;
+    border-radius: 5px;
+    margin-left: 760px;
+    margin-right: 760px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.remove-all-btn:hover {
+    width: 400px;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    color: #b52019;
+    border: solid 3px #b52019;
+    border-radius: 5px;
+    margin-left: 760px;
+    margin-right: 760px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
 
